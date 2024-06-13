@@ -22,7 +22,10 @@
       32
     ]
   },
-  "test_NERNet": "ValueError('hidden_size must be greater than zero')",
+  "test_NERNet": {
+    "f1": 0.9089868349047537,
+    "f1_wo_o": 0.7167391404954413
+  },
   "test_glove": {
     "f1": 0.911392663742855,
     "f1_wo_o": 0.7181473332099425
